@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.navb{
+    background-color: #222831;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    
+}
+
+.butt {
+    margin-left: auto;
+    font-weight: bold !important;
+    /* text-transform: uppercase; */
+
+}
+
+.logo {
+    width: 89.4px;
+    height: 55px;
+}
+
+#sr {
+    margin-left: auto;
+}
+
+
+h1{
+    margin-right: 40px;
+    font-style: italic;
+    color: white;
+    /* font-weight: bold; */
+    text-shadow: 2px 2px 10px cyan;
+    text-transform: uppercase;
+    padding-left: 4%;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    /* background-color: skyblue; */
+    background-color: #4592af;
+    margin-right: 0% !important;
+    
+}
+
+.cardd {
+   margin-top: 2%;
+   background-color:  #222831 !important;
+   color: white;
+   /* height: auto; 
+   width: 80vw !important; */
+   display: flex;
+   align-items: center;
+
+}
+
+/* img {
+    width: 60% !important;
+} */
+
+.photo {
+    /* height: 65%;*/
+    height: 400px;
+}
+
+.ft {
+    background-color: #222831;
+    height: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-transform: uppercase;
+    /* padding-left: 42%; */
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.formItems{
+    width: 50%;
+}
+
+#formCont{
+    /* background-color: rgba(99, 143, 55, 0.308); */
+    /* background-color: #4592af; */
+    background-color:#f6f5f5 ;
+      /*margin: 2%;*/
+    padding-left: 10% ;
+    padding-top: 5%;
+}
+
+.sub{
+    margin-left: 18%;
+}
+
+.parag{
+    /*background-color: salmon; */
+   /* width: 60%;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 11.38%;*/
+    /* opacity: 0.85;*/
+    padding: 10.645% ;
+    /* background-image: url(http://www.sabeely.net/wp-content/uploads/2018/03/library-wallpaper-50371-52062-hd-wallpapers.jpg); */
+     background-image: url(https://wallpaperaccess.com/full/3876089.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* filter: grayscale(100%); */
+    /* filter: blur(5px); */
+    /* height: 100% !important; */
+    background-repeat: repeat;
+    
+}
+.textt{
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 25px black;
+    background-clip: border-box;
+    text-align: justify;
+}
+.con {
+    height: 54px;
+    color: #007bff !important ;
+  }
+
+
+
+
+
+
+  #blueBar {
+    width: 100%;
+    min-height: 32px;
+    background-color: #222831;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 12pt;
+  }
+  
+  .alter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    animation: spin 10s linear infinite normal ;
+    font-size: 12px;
+  }
+
+  .one {
+    z-index: -1;
+    animation-delay: 0s;
+  }
+  
+  .two {
+    animation-delay:2.5s;
+    z-index:-1;
+  }
+  
+  .three {
+    animation-delay:5s;
+    z-index:-1;
+  }
+  
+  .four {
+    animation-delay: 7.5s;
+    z-index: -1;
+  }
+  
+  @keyframes spin {
+    0% {
+        z-index:1;
+    }
+  
+    33.33% {
+        z-index:-1;
+    }
+  
+    66.66% {
+        z-index:-1;
+    }
+    100%{
+        z-index:-1;
+    }
+  }
+
+
+
+  /* .cardd:hover {
+
+    background-color: red !important;
+  } */
+
+
+
+  .containerr {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+ background-color: white;
+  }
+  
+  .containerr:hover .overlay {
+    opacity: 1;
+    z-index: 2;
+    opacity: 0.9;
+  }
+  
+  .text {
+    color: black;
+    font-size: 20pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(44, 209, 195);
+  }
