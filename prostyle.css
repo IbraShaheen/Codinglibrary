@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0%;
+
 }
 
 .navb{
@@ -10,7 +11,8 @@
     /* justify-content: center; */
     align-items: center;
     align-content: center;
-    
+   
+
 }
 
 .butt {
@@ -81,6 +83,7 @@ h1{
     justify-content: center;
     font-weight: bold;
     letter-spacing: 2px;
+    
 }
 
 .formItems{
@@ -245,3 +248,5 @@ h1{
     text-align: center;
     text-shadow: 3px 3px 5px rgb(44, 209, 195);
   }
+
+  
